@@ -50,6 +50,16 @@ const MenuItems = [
         navigate: 'Chat',
     },
     {
+        icon: IMAGES.Wardrobe1,
+        name: "Wardrobe",
+        navigate: 'Wardrobe',
+    },
+    {
+        icon: IMAGES.Outfit1,
+        name: "Outfit",
+        navigate: 'Outfit',
+    },
+    {
         icon: IMAGES.user3,
         name: "Profile",
         navigate: "Profile",

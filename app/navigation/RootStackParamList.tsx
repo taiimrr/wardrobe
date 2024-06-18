@@ -31,6 +31,8 @@ export type RootStackParamList = {
     ProductsDetails: undefined;
     Writereview: undefined;
     Profile: undefined;
+    Wardrobe: undefined;
+    Outfit: undefined;
     Wishlist: undefined;
     Search: undefined;
     Components: undefined;

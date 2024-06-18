@@ -3,5 +3,7 @@ export type BottomTabParamList = {
     Wishlist: undefined;
     MyCart: undefined;
     Category: undefined;
+    Wardrobe: undefined;
+    Outfit: undefined;
     Profile: undefined;
 };

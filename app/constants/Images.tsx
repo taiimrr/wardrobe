@@ -58,6 +58,10 @@ export const IMAGES = {
     audiomute: require('../assets/images/icons/audiomute.png'), 
     sun: require('../assets/images/icons/sun.png'), 
     darkMode: require('../assets/images/icons/moon.png'), 
+    Wardrobe: require('../assets/images/icons/wardrobe.png'),
+    Wardrobe1: require('../assets/images/icons/wardrobe1.png'),
+    Outfit: require('../assets/images/icons/outfit.png'),
+    Outfit1: require('../assets/images/icons/outfit1.png'),
 
 
     onborder1 : require('../assets/images/onbording/pic1.png'),

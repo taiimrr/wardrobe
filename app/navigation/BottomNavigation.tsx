@@ -6,41 +6,30 @@ import MyCartScreen from '../screens/MyCart/MyCart';
 import HomeScreen from '../screens/Home/Home';
 import CategoryScreen from '../screens/Category/Category';
 import ProfileScreen from '../screens/Profile/Profile';
+import WardrobeScreen from '../screens/Wardrobe/Wardrobe';
+import OutfitScreen from '../screens/Outfit/Outfit';
 import BottomMenu from '../layout/BottomMenu';
 
 const Tab = createBottomTabNavigator<BottomTabParamList>();
 
 const BottomNavigation = () => {
-    return (
-        <Tab.Navigator
-            initialRouteName='Home'
-            screenOptions={{
-                headerShown : false
-            }}
-            tabBar={(props:any) => <BottomMenu {...props}/>}
-        >
-            <Tab.Screen 
-                name='Home'
-                component={HomeScreen}
-            />
-            <Tab.Screen 
-                name='Wishlist'
-                component={WishlistScreen}
-            />
-            <Tab.Screen 
-                name='MyCart'
-                component={MyCartScreen}
-            />
-            <Tab.Screen 
-                name='Category'
-                component={CategoryScreen}
-            />
-            <Tab.Screen 
-                name='Profile'
-                component={ProfileScreen}
-            />
-        </Tab.Navigator>
-    )
-}
+  return (
+    <Tab.Navigator
+      initialRouteName="Home"
+      screenOptions={{
+        headerShown: false,
+      }}
+      tabBar={(props: any) => <BottomMenu {...props} />}
+    >
+      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Wishlist" component={WishlistScreen} />
+      <Tab.Screen name="MyCart" component={MyCartScreen} />
+      <Tab.Screen name="Category" component={CategoryScreen} />
+      <Tab.Screen name="Wardrobe" component={WardrobeScreen} />
+      <Tab.Screen name="Outfit" component={OutfitScreen} />
+      <Tab.Screen name="Profile" component={ProfileScreen} />
+    </Tab.Navigator>
+  );
+};
 
 export default BottomNavigation;
